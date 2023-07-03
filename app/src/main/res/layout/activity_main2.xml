@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#0C0C0C"
     tools:context=".MainActivity2">
 
     <ImageView
@@ -12,43 +13,47 @@
         android:scaleType="centerCrop"
         android:src="@drawable/covid"
         android:layout_width="match_parent"
-        android:layout_height="270dp"></ImageView>
+        android:layout_height="240dp"></ImageView>
 
     <TextView
+        android:textStyle="bold"
         android:id="@+id/textviewname"
         android:layout_marginTop="15dp"
         android:layout_marginHorizontal="15dp"
-        android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
         android:text="Country"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></TextView>
 
     <TextView
+        android:textStyle="bold"
         android:layout_marginTop="5dp"
         android:id="@+id/textviewcases"
         android:layout_marginHorizontal="15dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20dp"
         android:text="Country"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></TextView>
 
     <TextView
+        android:textStyle="bold"
         android:layout_marginTop="5dp"
         android:id="@+id/textviewrecovered"
         android:layout_marginHorizontal="15dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20dp"
         android:text="Country"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></TextView>
 
     <TextView
+        android:textStyle="bold"
         android:layout_marginTop="5dp"
         android:id="@+id/textviewdeath"
         android:layout_marginHorizontal="15dp"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20dp"
         android:text="Country"
         android:layout_width="match_parent"

@@ -5,9 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#0C0C0C"
     tools:context=".MainActivity">
 
    <EditText
+       android:textColor="@color/white"
+       android:textColorHint="#6A6A6A"
        android:hint="Поиск"
        android:drawableRight="@drawable/round_search_24"
        android:padding="15dp"
